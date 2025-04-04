@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{a51b733e-eb40-4953-9cc3-512bb8cc0e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Draw">
+      <UniqueIdentifier>{51dbdfd3-4791-4f9f-94a4-7e9ac649c9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object">
+      <UniqueIdentifier>{3a6a5340-638e-4158-895f-f9bf26f6906d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\Component">
+      <UniqueIdentifier>{a0bf58f1-d989-4830-bda6-24b6d70bf3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\Component\Components">
+      <UniqueIdentifier>{fe5bc425-990e-41b4-be92-68e7496b543f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\GameObject">
+      <UniqueIdentifier>{2bcd8c61-c4b2-4e5a-b41b-0802e0b4120e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\GameObject\GameObjects">
+      <UniqueIdentifier>{046a90b2-7d2f-4884-b4aa-5753b855efd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Scene">
+      <UniqueIdentifier>{46d3851d-e2f8-4aa7-b516-972f97d1e0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Scene\Scenes">
+      <UniqueIdentifier>{dfd1bf4a-4424-4e3f-abd1-4774c14c5d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\main">
+      <UniqueIdentifier>{b8e0d6c1-9cc9-48c3-8a45-4cedc74ae179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\main\Game">
+      <UniqueIdentifier>{12f1ea91-6d60-4b03-90ec-e1b4023ef24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\main\Window">
+      <UniqueIdentifier>{fadf5b3b-86f0-4ed2-acd2-39176f7d4b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\Component\Components\Renderer">
+      <UniqueIdentifier>{041bd3be-4aa1-41d1-add4-182cc44909cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Draw\Loader">
+      <UniqueIdentifier>{862dcaa9-0028-4553-93ce-f6be5d1c4031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Draw\Loader\3D">
+      <UniqueIdentifier>{52abe9c0-39df-4abf-b634-dbf2643fb610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Draw\Model">
+      <UniqueIdentifier>{80c4a231-db92-4ef3-afca-13bfcc72da6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Draw\Model\Mesh">
+      <UniqueIdentifier>{97a26338-94ed-4a3e-9377-75b9a995b01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Draw\Model\Shader">
+      <UniqueIdentifier>{c62cb2f1-b272-4be7-8825-8b8d8fca8cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\main\DirectX">
+      <UniqueIdentifier>{f11f1cfa-b721-448e-82ac-140ac36e03ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\Component\Components\Renderer\3D">
+      <UniqueIdentifier>{1b4568ff-860c-487a-86ec-5094bbe56bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\Component\Components\Renderer\2D">
+      <UniqueIdentifier>{2bfc7556-dee2-4ec1-8022-75db7ee68210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\Component\Components\Camera">
+      <UniqueIdentifier>{6ddd07ba-7dca-4d49-a417-0536d0863a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\Component\Components\Camera\Cameras">
+      <UniqueIdentifier>{1ddfb695-04a0-4e9f-9e43-f865f1db0fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Object\Component\Components\Loader">
+      <UniqueIdentifier>{cf7e13ec-a28e-49a3-8537-6f4ec4e55921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Input">
+      <UniqueIdentifier>{418adea5-5e3b-4a4f-b308-cd5220b1f8fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DXRenderer.cpp">
+      <Filter>core\main\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>core\main\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>core\main\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>core\main\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>core\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\GitHub\3DFrame\2Dframe\2Dframe\TransformCP.cpp">
+      <Filter>core\Object\Component\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>core\Draw\Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpPerse.cpp">
+      <Filter>core\Draw\Loader\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>core\Draw\Model\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11helper.cpp">
+      <Filter>core\main\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>core\Draw\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>core\Draw\Model\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>core\Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleObject.cpp">
+      <Filter>core\Object\GameObject\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader2DCP.cpp">
+      <Filter>core\Object\Component\Components\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Render2DCP.cpp">
+      <Filter>core\Object\Component\Components\Renderer\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Base2D.cpp">
+      <Filter>core\Object\Component\Components\Renderer\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2DCP.cpp">
+      <Filter>core\Object\Component\Components\Renderer\2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DXRenderer.h">
+      <Filter>core\main\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>core\main\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>core\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>core\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>core\main\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>core\main\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\GitHub\3DFrame\2Dframe\2Dframe\TransformCP.h">
+      <Filter>core\Object\Component\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRender.h">
+      <Filter>core\Object\Component\Components\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>core\Draw\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>core\Draw\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpPerse.h">
+      <Filter>core\Draw\Loader\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>core\Draw\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>core\Draw\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>core\Draw\Model\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11helper.h">
+      <Filter>core\main\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>core\Draw\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>core\Draw\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>core\Draw\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>core\Draw\Model\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Base3D.h">
+      <Filter>core\Object\Component\Components\Renderer\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Base2D.h">
+      <Filter>core\Object\Component\Components\Renderer\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Render2DCP.h">
+      <Filter>core\Object\Component\Components\Renderer\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Render3DCP.h">
+      <Filter>core\Object\Component\Components\Renderer\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCamera.h">
+      <Filter>core\Object\Component\Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>core\Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleObject.h">
+      <Filter>core\Object\GameObject\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader2DCP.h">
+      <Filter>core\Object\Component\Components\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader3DCP.h">
+      <Filter>core\Object\Component\Components\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DCP.h">
+      <Filter>core\Object\Component\Components\Renderer\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DData.h">
+      <Filter>core\Object\Component\Components\Renderer\2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assimp-vc143-mtd.dll">
+      <Filter>core\Draw\Loader\3D</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\common.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\litTexturePS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\litTextureVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTexturePS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTextureVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
